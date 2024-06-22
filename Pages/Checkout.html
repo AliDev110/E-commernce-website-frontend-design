@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Open Shop</title>
+        <link href = "Style.css" rel = "stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <label class = "logo">Open Shop</label>
+            <ul>
+                <li><input type = "text" placeholder= "Search"><input class = "search" type = "button" value = "Search"></li>
+                <li><a href = "Home.html">Home</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn"><a href = "items.html">View all</a></button>
+                    <div class="dropdown-content">
+                      <a class = "active" href="Computer_internals.html">Computer internals</a>
+                      <a href="computer_accessories.html">Computer Accessories</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href = "Sign Up.html">Sign out</a></li>
+                <li><a href = "Cart.html">Cart</a></li>
+                <li><a href = "user.html">Profile</a></li>
+            </ul>
+        </nav>
+        
+        
+        <form class = "checkout">
+            <div class = "personal-info">    
+                <h3>Personal information</h3>
+                <br>
+                <big>First Name</big><br>
+                <input type="text" name="First Name" placeholder="First Name">
+                <br>  
+                <big>Middle Name</big><br>
+                <input type="text" name="Middle Name" placeholder="Middle Name">
+                <br> 
+                <big>Last Name</big><br>
+                <input type="text" name="Last Name" placeholder="Last Name">
+                <br> 
+                <big>Email Adress</big><br>
+                <input type="text" name="Email" placeholder="email@domain.com">
+                <br>   
+                <big>Shipping Adress</big><br>
+                <input type="text" name="shippingaddress" placeholder="123 Street, CITY, STATE ZIP">
+                <br>   
+            </div>
+
+            <div class = "payment-info">
+                <h3>Payment information</h3>
+                <big>Name on Credit Card</big><br>
+                <input type="text" name="Name on card" placeholder="First Middle Last">
+                <br>  
+                <big>Billing Adress</big><br>
+                <input type="text" name="Billing address" placeholder="123 Street, CITY, STATE ZIP">
+                <br>  
+                <big>Credit Card Number</big><br>
+                <input type="text" name="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX">
+                <br>
+                <big>Expiry date</big><br>
+                <input type="month" name="expiry date" >
+                <br>
+                <big>CCV</big><br>
+                <input type="text" name="CCV" placeholder="XXX">
+                <br>
+            </div>
+
+            <div class = "form-footer">
+                <br>   
+                <br>
+                <input type="submit" value="Proceed" class="btn">  
+            </div>
+        </form>
+    </body>   
+</html>
+    
