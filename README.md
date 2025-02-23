@@ -1,2 +1,2 @@
-# IICT-Project
- This repo contains the Project of the IICT Course completed at uni
+# Designing Project
+ This project showcases designing an e-commernce website using HTML and CSS. 
